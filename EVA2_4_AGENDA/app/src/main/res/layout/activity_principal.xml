@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.danelly.eva2_4_agenda.Principal"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="201dp"
+            android:layout_height="55dp"
+            android:text="Introduzca el nombre:"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editNom"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nombre" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.12">
+
+        <TextView
+            android:id="@+id/txtNum"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_weight="0.99"
+            android:text="Digite el numero:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editNum"
+            android:layout_width="182dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="Número" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.17">
+
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="148dp"
+            android:layout_height="66dp"
+            android:onClick="onClickIns"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="108dp"
+            android:layout_height="60dp"
+            android:onClick="onClickActual"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:onClick="onClickBorrar"
+            android:text="Eliminar" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:text="MOSTRAR TODOS" />
+
+</LinearLayout>

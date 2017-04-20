@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danelly.eva2_p2_control_acceso.Principal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="103dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAcceso"
+            android:layout_width="191dp"
+            android:layout_height="250dp"
+            android:text="Acceder a SISTEMA"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnUsuarios"
+            android:layout_width="191dp"
+            android:layout_height="250dp"
+            android:text="Crear Usuario"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>
