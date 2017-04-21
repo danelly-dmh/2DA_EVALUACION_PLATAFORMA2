@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danelly.eva2_2_sqlite_2.Principal">
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/edTxtNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido" />
+
+    <EditText
+        android:id="@+id/edTxtApe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad" />
+
+    <EditText
+        android:id="@+id/edTxtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/actualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ACTUALIZAR" />
+
+        <Button
+            android:id="@+id/insertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickIns"
+            android:text="Insertar" />
+
+        <Button
+            android:id="@+id/limpiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickLimp"
+            android:text="Limpiar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/borrar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onClickBorrar"
+            android:text="BORRAR" />
+    </LinearLayout>
+</LinearLayout>
