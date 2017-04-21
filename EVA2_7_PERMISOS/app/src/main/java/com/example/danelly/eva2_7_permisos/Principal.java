@@ -17,6 +17,13 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 
+/**
+	permisos
+	Created by Danelly on 08/03/2017.
+	written by: Danelly Montañez Hernández
+	Instituto Tecnológico de Chihuahua II-13550406
+	DESARROLLO DE APLICACIONES PARA DISPOSITIVOS MÓVILES PLATAFORMA II
+	*/
 public class Principal extends AppCompatActivity {
     final static int PERMIS=11;
 

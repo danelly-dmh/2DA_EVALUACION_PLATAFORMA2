@@ -7,7 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
+/**
+	control de acceso
+	Created by Danelly on 08/03/2017.
+	written by: Danelly Montañez Hernández
+	Instituto Tecnológico de Chihuahua II-13550406
+	DESARROLLO DE APLICACIONES PARA DISPOSITIVOS MÓVILES PLATAFORMA II
+	*/
 public class Principal extends AppCompatActivity {
     Button btnAcceso, btnUsuarios;
     SQLiteDatabase db;

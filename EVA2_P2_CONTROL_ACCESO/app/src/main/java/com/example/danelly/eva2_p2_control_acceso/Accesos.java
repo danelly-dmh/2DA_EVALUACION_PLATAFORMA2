@@ -10,7 +10,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
+/**
+	control de acceso
+	Created by Danelly on 08/03/2017.
+	written by: Danelly Montañez Hernández
+	Instituto Tecnológico de Chihuahua II-13550406
+	DESARROLLO DE APLICACIONES PARA DISPOSITIVOS MÓVILES PLATAFORMA II
+	*/
 public class Accesos extends AppCompatActivity {
     EditText user, password;
     Button aceptar,cancelar;

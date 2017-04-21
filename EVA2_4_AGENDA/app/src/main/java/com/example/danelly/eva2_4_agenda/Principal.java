@@ -9,6 +9,14 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/**
+	Agenda
+	Created by Danelly on 08/03/2017.
+	written by: Danelly Montañez Hernández
+	Instituto Tecnológico de Chihuahua II-13550406
+	DESARROLLO DE APLICACIONES PARA DISPOSITIVOS MÓVILES PLATAFORMA II
+	*/
+
 public class Principal extends AppCompatActivity {
     EditText txtNom, txtNum;
     SQLiteDatabase miBD;    long iReg;

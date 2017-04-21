@@ -9,6 +9,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+/**
+	java_io_resource_file
+	Created by Danelly on 08/03/2017.
+	written by: Danelly Montañez Hernández
+	Instituto Tecnológico de Chihuahua II-13550406
+	DESARROLLO DE APLICACIONES PARA DISPOSITIVOS MÓVILES PLATAFORMA II
+	*/
+
 public class Principal extends AppCompatActivity {
     TextView txtVwMostrar;
 
